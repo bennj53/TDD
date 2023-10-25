@@ -39,9 +39,10 @@ public class Banque {
 
     public String virerSomme(Compte compte, String ibanTo, int somme) {
         String result = this.virementService.virement(compte.getIban(), ibanTo, somme);
-//        if(result ok){
-//            compte.retrait(somme);
-//        }
-        return null;
+        if(result.equals("202")){
+            compte.retrait(somme);
+        }
+
+        return result;
     }
 }

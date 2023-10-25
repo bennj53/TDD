@@ -38,6 +38,7 @@ public class Compte {
             this.solde-=somme;
             ajouterTransaction(somme*-1);
         }
+        //throw Exception("");
     }
 
     public void ajouterTransaction(int somme) {
