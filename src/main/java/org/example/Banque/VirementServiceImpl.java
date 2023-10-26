@@ -1,4 +1,4 @@
-package org.example.account;
+package org.example.Banque;
 
 public class VirementServiceImpl implements VirementService{
     @Override

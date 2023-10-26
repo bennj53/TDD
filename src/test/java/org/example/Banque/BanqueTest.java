@@ -1,4 +1,4 @@
-package org.example.account;
+package org.example.Banque;
 
 import junit.framework.TestCase;
 import org.mockito.Mockito;
